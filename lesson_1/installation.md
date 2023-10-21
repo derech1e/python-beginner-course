@@ -9,11 +9,12 @@
 
 3. Execute (with a double click) the installer (e.g. python-3.12.0-amd64.exe) that you just downloaded
 4. Make sure that all checkboxes are selected
-![img.png](assets/img/img.png)
 
+![img.png](assets/img/img.png)
 
 5. Click on "Customize installation" and select the first 4 checkboxes
 6. Click on "Next" and select the checkbox "Install Python for all users"
+
 ![img_2.png](assets/img/img_2.png)
 
 
@@ -51,6 +52,7 @@
    Python 3.12.0
    ```
 
+<br>
 <br>
 
 > As an additional step you can update your path within the terminal: 
