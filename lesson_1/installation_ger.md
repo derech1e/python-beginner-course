@@ -45,8 +45,9 @@
 3. Führe (mit einem Doppelklick) den zuvor heruntergeladenen Installer (z.B. python-3.12.0-macos11.pkg) aus
 4. Folge den Anweisungen des Installers
 
-![img_5.png](assets/img/img_5.png)
-![img_6.png](assets/img/img_6.png)
+<img width="400" alt="" src="assets/img/img_5.png">
+<img width="400" alt="" src="assets/img/img_6.png">
+
 
 5. Nach der Installation sollte die Meldung "Installation erfolgreich" angezeigt werden.
 6. Nach der Installation öffnet sich ein Fenster mit dem Namen "Python 3.12". Führe die Dateien (mit einem Doppelklick) "Install Certificates" und "Update Shell Profile" aus
