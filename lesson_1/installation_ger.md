@@ -11,14 +11,20 @@
 
 
 3. Führe (mit einem Doppelklick) den zuvor heruntergeladenen Installer (z. B. python-3.12.0-amd64.exe) aus
-4. Wähle alle Optionen aus
+4. Wähle folgende Optionen aus
 
 ![img.png](assets/img/img.png)
 
-5. Klicke auf "Customize installation" und wähle die ersten 4 Optionen aus
-6. Klicke auf "Next" und wähle die Option "Install Python for all users" aus
 
-![img_2.png](assets/img/img_2.png)
+5. Klicke auf "Customize installation" und wähle die ersten 4 Optionen aus
+
+![image](https://github.com/derech1e/python-beginner-course/assets/39240736/c5d59501-1671-48a8-99c4-951900dbef3f)
+
+
+7. Klicke auf "Next" und wähle folgende Optionen aus
+
+![image](https://github.com/derech1e/python-beginner-course/assets/39240736/a597dc5b-cf87-44a5-8e83-ca5314e236e6)
+
 
 
 8. Klicke auf "Install". Nach der Installation sollte die Meldung "Installation erfolgreich" angezeigt werden.
