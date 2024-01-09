@@ -1,20 +1,9 @@
-import random
+thislist = ["s0", "s1", "s2", "s3", "s4"]
 
-number = random.randint(0, 100)
-guess = False
-count = 0
+length = len(thislist)
+index = length - 1
 
-while (not (guess)):
-    i = int(input("Rate eine Zahl: "))
-    if (number == i):
-        guess = True
-    elif (number < i):
-        print("lower ⏬⏬")
-    elif (number > i):
-        print("higher ⏫⏫")
-
-    count += 1
-
-print("Yay, mit nur " + str(count) + " Versuchen erraten 🐍🐍✨")
-
-
+print(f"Length: {length}")
+print(f"Index: {index}")
+print(f"First loop element: {thislist[index - 1]}")
+print(f"Current loop element: {thislist[index]}")
