@@ -20,7 +20,7 @@ def handle_collision():
     scoreManager.reset()
 
 
-def tick():
+def game_loop():
     if snake.is_colliding():
         handle_collision()
 
@@ -35,8 +35,8 @@ def tick():
         scoreManager.add(10)
 
     screen.update()
-    screen.ontimer(tick, 10)
+    screen.ontimer(game_loop, 10)
 
 
-tick()
+game_loop()
 screen.mainloop()

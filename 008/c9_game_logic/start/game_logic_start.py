@@ -7,7 +7,7 @@ snake = Snake(screen)
 food = Food()
 
 
-def tick():
+def game_loop():
     screen.update()
 
     if snake.t.distance(food.food) < 20:
@@ -15,8 +15,8 @@ def tick():
         snake.add_segment()
         snake.update_speed()
 
-    screen.ontimer(tick, 10)
+    screen.ontimer(game_loop, 10)
 
 
-tick()
+game_loop()
 screen.mainloop()

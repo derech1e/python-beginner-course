@@ -15,7 +15,7 @@ def handle_collision():
     snake.reset()
 
 
-def tick():
+def game_loop():
     if snake.is_colliding():
         handle_collision()
 
@@ -29,8 +29,8 @@ def tick():
         snake.update_speed()
 
     screen.update()
-    screen.ontimer(tick, 10)
+    screen.ontimer(game_loop, 10)
 
 
-tick()
+game_loop()
 screen.mainloop()

@@ -1,5 +1,6 @@
 import turtle
 from Direction import Direction
+from Food import Food
 
 screen = turtle.Screen()
 screen.setup(width=700, height=700)
@@ -9,6 +10,8 @@ t.color("blue")
 t.penup()
 t.speed(0)
 t.direction = Direction.STOP
+
+food = Food()
 
 
 def up():
@@ -58,7 +61,8 @@ def move():
     if is_colliding():
         t.home()
 
-    # implementation here
+    if t.distance(food.food) < 20:
+        food.find_new_location()
 
     screen.ontimer(move, 20)
 
