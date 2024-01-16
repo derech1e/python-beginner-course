@@ -19,10 +19,6 @@ def game_loop():
     if snake.is_colliding():
         handle_collision()
 
-    for segment in snake.segments:
-        if segment.distance(snake.t) < 10:
-            handle_collision()
-
     if snake.t.distance(food.food) < 20:
         food.find_new_location()
         snake.add_segment()
