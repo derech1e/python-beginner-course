@@ -36,4 +36,6 @@ Stunde.
     - [python-beginner-course009](./009/python-beginner-course009)
         - [c8_speed](009/python-beginner-course009/c8_speed)
         - [c9_game_controller](009/python-beginner-course009/c9_game_controller)
-        - [c10_score](009/python-beginner-course009/c10_score)
+- [010](./010)
+    - [python-beginner-course010](./010/python-beginner-course010)
+        - [c10_score](010/python-beginner-course010/c10_score)
