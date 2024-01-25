@@ -1,7 +1,9 @@
 # Python Beginner Course
 
 Dieses Repository enthält den Code und die Assets für den Python-Anfängerkurs. Jeder Ordner entspricht einer eigenen
-Stunde.
+Stunde. Ziel des Kurses ist ein einfaches "Snake-Game", mit dem über die Stunden erlangtem wissen zu implementieren.
+
+![](GIF.gif)
 
 ## Inhaltsverzeichnis
 
